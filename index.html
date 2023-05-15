@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form for furniture donation</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+  emailjs.init("5qzZLpMyQo6nBSzut");
+})();
+</script>
+  </head>
+  <body>
+  <div class="slider-frame">
+    <div class="slide-images">
+            <div class="img-container">
+                <img src="images/img1.jpg">
+            </div>
+            <div class="img-container">
+                <img src="images/img2.jpg">
+            </div>
+            <div class="img-container">
+                <img src="images/img3.jpg">
+            </div>
+    </div>
+  </div>
+    <section class="container">
+      <header>Furniture Registration</header>
+<<<<<<< HEAD
+      <div  class="form" >
+=======
+       <div class="form" >
+>>>>>>> 00d6cb454759b835ff103c35e36ff51ec25ff4e4
+        <div class="input-box">
+          <label>Full Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter full name" required />
+        </div>
+
+        <div class="input-box">
+          <label>Email Address</label>
+          <input type="email" name="email" id="email" placeholder="Enter email address" id="email" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Phone Number</label>
+            <input type="number" placeholder="Enter phone number" required />
+          </div>
+        </div>
+        
+        <div class="input-box address">
+          <label>Address</label>
+          <input type="text" name="message" id="message" placeholder="Enter street address" required />
+          <input type="text" placeholder="Enter street address line 2" required />
+          <div class="column">
+            <input type="text" placeholder="Enter your city" required />
+            <input type="number" placeholder="Enter postal code" required />
+          </div>
+        </div>
+
+        <div class="input-box address">
+            <div class="column">
+              <div class="input-box">
+                <label for="column" class="setblock">Choose service</label>
+                <div class="select-box">
+                  <select>
+                    <option>Donations</option>
+                    <option>Consignment</option>
+                    <option>Pick up from Store</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-box">
+                <label for="">Set Furniture Pickup Date</label>
+                <input type="date" required />
+              </div>
+          </div>
+        </div>
+        <div class="input-box">
+          <label for="exampleInputPassword1">Add Pictures of the items</label>
+          <input type="file" name="fileToUpload" id="image1" required>
+        </div>
+        <div class="input-box">
+          <label for="exampleInputPassword1">Add Pictures of the first area where you fill the form</label>
+          <input type="file" name="fileToUpload" id="image2" required>
+        </div> 
+<<<<<<< HEAD
+      
+        <button onclick="sendMail()">Submit</button>
+    </div>
+=======
+
+        <button onclick="sendMail()">Submit</button>
+      </div>
+>>>>>>> 00d6cb454759b835ff103c35e36ff51ec25ff4e4
+    </section>
+  </body>
+</html>
